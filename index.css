@@ -1,8 +1,9 @@
 body {
-    background-color: rgb(100, 102, 71);
+    background:#d1cdcd 
 }
 
 .LOGO {
+    padding: 10px;
     width: 200px;
     /* Cambia el ancho de la imagen a 200 píxeles */
     height: auto;
@@ -49,7 +50,7 @@ ul.navbar-nav{
 
 
 footer {
-    background-color: rgb(197, 132, 132);
+    background-color: rgb(189, 97, 192);
     color: white;
     padding: 20px;
     margin-top: 20px;
