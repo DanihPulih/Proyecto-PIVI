@@ -39,3 +39,35 @@ ul.navbar-nav{
     display: flex;
     justify-content: space-around;
 } 
+
+
+
+
+
+
+footer {
+    background-color: rgba(51,51,51,255);
+    color: white;
+    padding: 20px;
+    margin-top: 20px;
+
+    flex-grow: 1;
+    order: 3;
+    display: flex;
+    justify-content: space-between;
+    }
+    .imgfooter { 
+        width: 20px;
+    }
+    
+    .imgfooter:hover {
+        transform: scale(2,2);
+    }
+    
+    .subfooter { 
+        width: 60px;
+    
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
