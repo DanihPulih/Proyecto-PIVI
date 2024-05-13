@@ -41,7 +41,10 @@ ul.navbar-nav{
 } 
 
 
-
+#formu1{
+    font-size: 30px;
+    padding: 15px;
+}
 
 
 
@@ -66,8 +69,13 @@ footer {
     
     .subfooter { 
         width: 60px;
-    
         display: flex;
         justify-content: flex-start;
         align-items: center;
     }
+
+    .elementos{
+    margin-right: 20px;
+    }
+    
+ 
