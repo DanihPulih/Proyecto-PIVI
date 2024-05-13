@@ -1,0 +1,41 @@
+body {
+    background-color: rgb(100, 102, 71);
+}
+
+.LOGO {
+    width: 200px;
+    /* Cambia el ancho de la imagen a 200 píxeles */
+    height: auto;
+    /* Mantiene la proporción de la imagen */
+}
+
+.nav {
+    background-color: blue;
+    /* Cambia el color de fondo a azul */
+}
+
+.navbar-nav{
+    padding: 20px;
+}
+
+.card-img-top{
+    width: 100%;
+    height: 300px;
+}
+
+.card-body{
+    height: 250px;
+}
+
+.row2{
+    height: 100%;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+ul.navbar-nav{
+    display: flex;
+    justify-content: space-around;
+} 
