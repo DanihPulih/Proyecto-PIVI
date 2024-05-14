@@ -10,11 +10,6 @@ body {
     /* Mantiene la proporción de la imagen */
 }
 
-.nav {
-    background-color: blue;
-    /* Cambia el color de fondo a azul */
-}
-
 .navbar-nav{
     padding: 20px;
 }
@@ -55,10 +50,15 @@ footer {
     padding: 20px;
     margin-top: 20px;
 
-    flex-grow: 1;
-    order: 3;
     display: flex;
     justify-content: space-between;
+    }
+
+    .subfooter { 
+        width: 60px;
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
     }
     
     .imgfooter { 
@@ -69,15 +69,34 @@ footer {
         transform: scale(2,2);
     }
     
-    .subfooter { 
-        width: 60px;
-        display: flex;
-        justify-content: flex-start;
-        align-items: center;
-    }
-
     .elementos{
     margin-right: 20px;
     }
     
+    .social-icons {
+        display: flex;
+        display: inline-block;
+        color: black;
+    }
+
+    .social-icons .social-icon svg {
+        fill: rgb(255, 254, 254) !important; /* Cambiar el color de relleno del icono a negro */
+        color: rgb(255, 255, 255) !important; /* Cambiar el color del icono a negro (para navegadores que no admiten el relleno SVG) */
+    }
  
+    .social-icon {
+        text-decoration: none; /* Elimina cualquier decoración de texto, como subrayado */
+        cursor: pointer; /* Cambia el cursor cuando se pasa sobre los iconos */
+    }
+
+    .social-icons {
+        display: flex; /* Utiliza flexbox para centrar los iconos horizontalmente */
+        margin-top: 20px; /* Agrega espacio superior */
+    }
+    
+    .social-icon {
+        text-decoration: none; /* Elimina cualquier decoración de texto, como subrayado */
+        cursor: pointer; /* Cambia el cursor cuando se pasa sobre los iconos */
+        margin: 0 10px; /* Agrega margen horizontal entre los iconos */
+    }
+    
